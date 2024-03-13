@@ -1,0 +1,162 @@
+body {
+    background-color: #ffbb81;
+}
+.wrapper-content {
+    padding-top: 5%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-body {
+    border-radius: 36px;
+    width: 267px;
+    height: 130px;
+    box-shadow: 0 15px 45px 0 rgba(0, 0, 0, 0.1), 0 65px 50px 0 rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-body h2 {
+    color: #FF8A6B;
+    font-size: 18px;
+}
+.wrapper-form {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+}
+.form-add {
+    background-color: #ffffff;
+    width: 450px;
+    padding: 10px;
+    border-radius: 36px;
+    box-shadow: 0 15px 45px 0 rgba(0, 0, 0, 0.1), 0 65px 50px 0 rgba(0, 0, 0, 0.05);
+}
+.form-add__line {
+    transform: rotate(360deg);
+    width: inherit;
+}
+.form-add__title {
+    color: #495057;
+    font-size: 16px;
+    padding: 20px 0px 20px 25px;
+}
+.form-horizontal {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.form-control {
+    display: block;
+    width: 375px;
+    padding: 6px 12px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 0.875rem;
+    color: #707070;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #eaedf1;
+    border-radius: 7px;
+    outline-color: #FF8A6B;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+textarea {
+    resize: none;
+}
+.select-control {
+    width: 399px;
+}
+/* кнопка */
+.btn {
+    border-radius: 50px;
+    width: 225px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 0.185rem 0.65rem;
+    font-size: 0.9375rem;
+    line-height: 1.84615385;
+    transition: all ease-in-out 0.2s;
+}
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+.wrapper_table, .table {
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+/* таблица */
+.table {
+    margin-top: 50px;
+    width: 100%;
+    table-layout: fixed;
+    background-color: #ffdcbe8a;
+    border: 1px solid #000000a3;
+}
+.table td {
+    vertical-align: middle;
+    border-top: 0;
+    padding-top: 28px;
+    padding-bottom: 14px;
+}
+.table thead th {
+    color: #ff4900;
+    font-size: 20px;
+    line-height: 150%;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+.table td {
+    border-bottom: 1px solid #616161;
+}
+.table tbody tr {
+    color: #ffa458;
+    font-size: 24px;
+    overflow-wrap: break-word;
+}
+.table tbody th .table-btn__delete {
+    width: 120px;
+    height: 50px;
+    font-size: 17px;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: rgb(249 100 166 / 85%);
+    border: none;
+    border-radius: 50px;
+}
+.table tbody th .table-btn__update {
+    width: 120px;
+    height: 50px;
+    font-size: 17px;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #8fbd56;
+    border: none;
+    border-radius: 50px;
+}
+tbody:before {
+    line-height: 3em;
+    content: "\200C";
+    display: block;
+}
+tbody tr th:nth-child(3){
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

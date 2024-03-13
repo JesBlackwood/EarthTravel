@@ -1,0 +1,270 @@
+/* Информация о экскурсии */
+.info__excursions {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.info__excursions h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #5e6282;
+    margin-bottom: 15px;
+}
+.info__excursions h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #fff;
+    width: 67%;
+}
+.button__excursions {
+    margin-top: 55px;
+    display: flex;
+    align-items: center; 
+}
+.excursions__btn {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 80px;
+    width: 388px;
+    height: 66px; 
+    background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.excursions__btn:active {
+    background: #FF7D68;
+}
+.favorites__btn {
+    margin-left: 15px;
+    border-radius: 100%;
+    width: 51px;
+    height: 51px;
+    border: none;
+    background-color: #ededed;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.favorites__btn:active {
+    background-color: #e9e9e9;
+}
+/* Информация о экскурсии */
+/* Описание экскурсии */
+.description__tour {
+    width: 79%;
+    margin: 200px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.description {
+    margin-right: 50px;
+}
+.description h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #5e6282;
+}
+.description p {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+}
+.price__card {
+    margin-left: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.price__circle {
+    width: 76px;
+    height: 76px;
+    border-radius: 50px;
+    background-color: #F0BB1F;
+    position: absolute;
+    margin-bottom: 108px;
+    margin-right: 182px;
+    z-index: 2;
+}
+.price__item {
+    border-radius: 13px;
+    width: 242px;
+    height: 165px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-image: url(../img/price__item.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+}
+.price__item .img-money {
+    width: 40px;
+}
+.price__item .img-time {
+    width: 26px;
+}
+.price, .time {
+    margin: 0px 0px 0px 7px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #ff8a6b;
+}
+.ticket {
+    font-weight: 500;
+    font-size: 18px;
+    color: #282828;  
+    margin: 0 auto;
+}
+/* Описание экскурсии */
+/* Описание маршрута */
+.description__route {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image__route {
+    width: 607px;
+    height: 760px;
+    border-radius: 10px;
+}
+.image__route img {
+    background-color: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
+    width: 607px;
+    height: 760px;
+    border-radius: 10px;
+}
+.route {
+    width: 43%;
+}
+.route h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #5e6282;
+    margin: 50 0px;
+}
+.list__route {
+    list-style: inside;
+    padding: 0px;
+}
+.list__route li {
+    color: #f0bb1f;
+    margin-bottom: 25px;
+}
+.list__route li::marker {
+    width: 16px;
+}
+.list__route li span {
+    color: #282828;
+    padding-left: 25px;
+}
+/* Описание маршрута */
+/* Бронирование */
+.reservation {
+    margin: 200px auto 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form__block {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form__name {
+    font-weight: 700;
+    font-size: 32px;
+    color: #5e6282;
+    margin-bottom: 120px;
+}
+.excursions__input {
+    border: none;
+    border-radius: 13px;
+    width: 410px;
+    height: 66px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    color: #282828;
+    padding: 0px 35px;
+    margin-bottom: 25px;
+}
+#reservation1 {
+    background-image: url(../img/location.svg);
+    background-repeat: no-repeat;
+    background-position-x: 416px;
+    background-position-y: center;
+}
+#reservation2 {
+    background-image: url(../img/calendar.svg);
+    background-repeat: no-repeat;
+    background-position-x: 416px;
+    background-position-y: center;
+}
+input[type=date]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+#reservation3 {
+    background-image: url(../img/quantity.svg);
+    background-repeat: no-repeat;
+    background-position-x: 416px;
+    background-position-y: center;
+}
+.excursions__input:focus {
+    outline: none;
+    border: 2px solid #ff946d;
+}
+.button__card {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.reservation__btn {
+    border: none;
+    border-radius: 80px;
+    width: 353px;
+    height: 66px;
+    background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
+.reservation__btn:active {
+    background: #FF7D68;
+}
+.reservation__favorites {
+    margin-left: 60px;
+    border: none;
+    border-radius: 100%;
+    width: 66px;
+    height: 66px;
+    background-color: #ededed;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reservation__favorites:active {
+    background-color: #e9e9e9;
+}
+/* Бронирование */

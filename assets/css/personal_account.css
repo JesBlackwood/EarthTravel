@@ -1,0 +1,172 @@
+body {
+    background: #c5c5c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: #282828;
+}
+.container {
+    background: #868686;
+    width: 97%;
+    margin: 0 auto;
+    margin: 25px 0px;
+    border-radius: 25px;
+}
+.content {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+}
+/* Sub-Menu */
+.left-content {
+    border-right: 3.85px solid #c5c5c5;;
+    width: 20%;
+    margin: 50px 0px;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.profile__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 217px;
+}
+.image-profile {
+    margin: auto;
+}
+.profile__mail {
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: -25px;
+}
+.submenu__item,
+.exit__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 217px;
+    height: 48px;
+    border-radius: 60px;
+    cursor: pointer;
+}
+.submenu__item p,
+.exit__item p  {
+    color: #FFF;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.exit__block {
+    flex: 0;
+    display: flex;
+    align-items: center;
+}
+.submenu {
+    margin-top: 35px;
+}
+.submenu__item {
+    margin-top: 15px;
+}
+.submenu__item.active {
+    background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+}
+/* Sub-Menu */
+/* profile */
+.right-content {
+    width: 70%;
+    padding: 60px 0px 0px 115px;
+}
+.right__title {
+    color: #FFF;
+    font-size: 40px;
+}
+/* profile */
+/* favorites */
+.rows__favorites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.card {
+    border-radius: 13px;
+    width: 745px;
+    height: 230px;
+    box-shadow: 0 0 51px 0 rgba(0, 0, 0, 0.05);
+    background: #fff;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.price__card {
+    display: flex;
+}
+.card__image {
+    height: 256px;
+}
+.information__card {
+    width: 100%;
+    padding: 0px 34px;
+}
+.heading__card {
+    font-weight: 700;
+    font-size: 20px;
+    color: #282828;
+    margin-top: 3px;
+    margin-bottom: 25px;
+}
+.price__card {
+    width: 73%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.price__item {
+    width: 27%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.price, .time {
+    margin: 0px 0px 0px 7px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #ff8a6b;
+}
+.ticket {
+    font-weight: 500;
+    font-size: 12px;
+    color: #282828;  
+    margin: 0 auto;
+}
+.button__card {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.excursions__btn {
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 175px;
+    height: 45px;
+    background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.excursions__btn:active {
+    background: #FF7D68;
+}
+.delete_link {
+    width: 80%;
+}
