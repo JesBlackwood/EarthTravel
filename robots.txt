@@ -1,0 +1,29 @@
+User-agent: Yandex
+Disallow: /admin
+Disallow: /adminEditProducts
+Disallow: /adminProducts
+Disallow: /assets/backend
+Disallow: *?s=
+Disallow: *?p=
+Disallow: *PHPSESSID=
+Disallow: *session_id=
+
+User-agent: Googlebot
+Disallow: /admin
+Disallow: /adminEditProducts
+Disallow: /adminProducts
+Disallow: /assets/backend
+Disallow: *?s=
+Disallow: *?p=
+Disallow: *PHPSESSID=
+Disallow: *session_id=
+
+User-agent: *
+Disallow: /admin
+Disallow: /adminEditProducts
+Disallow: /adminProducts
+Disallow: /assets/backend
+Disallow: *?s=
+Disallow: *?p=
+Disallow: *PHPSESSID=
+Disallow: *session_id=
